@@ -8,3 +8,8 @@ Features:
 * Runs all decoders in the same workflow
 * Uses gr-gpredict-doppler for Doppler correction
 * Outputs signal strength for later analysis
+
+Required GNURadio out-of-tree modules:
+ * https://github.com/bg2bhc/gr-lilacsat
+ * https://github.com/wnagele/gr-gpredict-doppler
+ 
