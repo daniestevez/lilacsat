@@ -888,7 +888,7 @@
     </param>
     <param>
       <key>freq</key>
-      <value>437260e3 - freq</value>
+      <value>centre_freq - freq</value>
     </param>
     <param>
       <key>_coordinate</key>
