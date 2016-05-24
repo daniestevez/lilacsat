@@ -6,7 +6,7 @@
     <key>options</key>
     <param>
       <key>author</key>
-      <value>Daniel Estevez, M0HXM</value>
+      <value>Daniel Estevez, EA4GPZ</value>
     </param>
     <param>
       <key>alias</key>
@@ -46,7 +46,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>lilacsat_decoder</value>
+      <value>lilacsat_decoder_subaudio</value>
     </param>
     <param>
       <key>max_nouts</key>
@@ -70,7 +70,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>LilacSat Decoder</value>
+      <value>LilacSat Subaudio Decoder</value>
     </param>
   </block>
   <block>
@@ -98,60 +98,6 @@
     <param>
       <key>value</key>
       <value>9600</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(376, 13)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>centre_freq</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>437260e3</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(664, 13)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>freq</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>centre_freq</value>
     </param>
   </block>
   <block>
@@ -220,7 +166,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(552, 533)</value>
+      <value>(1000, 69)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -247,7 +193,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 533)</value>
+      <value>(808, 69)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -274,7 +220,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 461)</value>
+      <value>(808, 5)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -301,7 +247,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(464, 533)</value>
+      <value>(904, 69)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -314,53 +260,6 @@
     <param>
       <key>value</key>
       <value>32</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_float_to_char</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(640, 436)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_float_to_char_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>scale</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
     </param>
   </block>
   <block>
@@ -383,7 +282,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(944, 505)</value>
+      <value>(920, 441)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -410,11 +309,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1112, 519)</value>
+      <value>(920, 343)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -451,57 +350,6 @@
     <param>
       <key>type</key>
       <value>"TCP_CLIENT"</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_threshold_ff</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(632, 334)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>high</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_threshold_ff_0</value>
-    </param>
-    <param>
-      <key>init</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>low</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
     </param>
   </block>
   <block>
@@ -575,7 +423,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(208, 357)</value>
+      <value>(432, 205)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -607,6 +455,45 @@
     </param>
   </block>
   <block>
+    <key>digital_binary_slicer_fb</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(904, 193)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>digital_binary_slicer_fb_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
     <key>digital_pfb_clock_sync_xxx</key>
     <param>
       <key>alias</key>
@@ -630,7 +517,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 321)</value>
+      <value>(608, 169)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -678,49 +565,6 @@
     </param>
   </block>
   <block>
-    <key>gpredict_doppler</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(488, 7)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>gpredict_host</key>
-      <value>localhost</value>
-    </param>
-    <param>
-      <key>gpredict_port</key>
-      <value>4534</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>gpredict_doppler_0</value>
-    </param>
-    <param>
-      <key>target</key>
-      <value>freq</value>
-    </param>
-    <param>
-      <key>verbose</key>
-      <value>False</value>
-    </param>
-  </block>
-  <block>
     <key>lilacsat_fec_decode_b</key>
     <param>
       <key>alias</key>
@@ -744,7 +588,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(800, 422)</value>
+      <value>(248, 390)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -795,7 +639,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1040, 441)</value>
+      <value>(544, 409)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -812,37 +656,6 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>note</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(-8, 364)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>note_4</value>
-    </param>
-    <param>
-      <key>note</key>
-      <value>Subaudio decoder</value>
     </param>
   </block>
   <block>
@@ -889,11 +702,11 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(160, 478)</value>
+      <value>(608, 46)</value>
     </param>
     <param>
       <key>gui_hint</key>
-      <value>tab@5</value>
+      <value></value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1156,7 +969,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 198)</value>
+      <value>(192, 198)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1187,133 +1000,6 @@
       <value>fff</value>
     </param>
   </block>
-  <block>
-    <key>qtgui_tab_widget</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(776, 10)</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>tab</value>
-    </param>
-    <param>
-      <key>label0</key>
-      <value>RF waterfall</value>
-    </param>
-    <param>
-      <key>label1</key>
-      <value>RF spectrum</value>
-    </param>
-    <param>
-      <key>label10</key>
-      <value>Tab 10</value>
-    </param>
-    <param>
-      <key>label11</key>
-      <value>Tab 11</value>
-    </param>
-    <param>
-      <key>label12</key>
-      <value>Tab 12</value>
-    </param>
-    <param>
-      <key>label13</key>
-      <value>Tab 13</value>
-    </param>
-    <param>
-      <key>label14</key>
-      <value>Tab 14</value>
-    </param>
-    <param>
-      <key>label15</key>
-      <value>Tab 15</value>
-    </param>
-    <param>
-      <key>label16</key>
-      <value>Tab 16</value>
-    </param>
-    <param>
-      <key>label17</key>
-      <value>Tab 17</value>
-    </param>
-    <param>
-      <key>label18</key>
-      <value>Tab 18</value>
-    </param>
-    <param>
-      <key>label19</key>
-      <value>Tab 19</value>
-    </param>
-    <param>
-      <key>label2</key>
-      <value>IF spectrums</value>
-    </param>
-    <param>
-      <key>label3</key>
-      <value>9k6 BPSK constellation</value>
-    </param>
-    <param>
-      <key>label4</key>
-      <value>9k6 BPSK parameters</value>
-    </param>
-    <param>
-      <key>label5</key>
-      <value>FM AF spectrum</value>
-    </param>
-    <param>
-      <key>label6</key>
-      <value>Signal strength</value>
-    </param>
-    <param>
-      <key>label7</key>
-      <value>Tab 7</value>
-    </param>
-    <param>
-      <key>label8</key>
-      <value>Tab 8</value>
-    </param>
-    <param>
-      <key>label9</key>
-      <value>Tab 9</value>
-    </param>
-    <param>
-      <key>num_tabs</key>
-      <value>7</value>
-    </param>
-  </block>
-  <connection>
-    <source_block_id>blocks_float_to_char_0</source_block_id>
-    <sink_block_id>lilacsat_fec_decode_b_0_0_2</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_threshold_ff_0</source_block_id>
-    <sink_block_id>blocks_float_to_char_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
   <connection>
     <source_block_id>blocks_wavfile_source_0</source_block_id>
     <sink_block_id>rational_resampler_base_xxx_0</sink_block_id>
@@ -1333,8 +1019,14 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>lilacsat_fec_decode_b_0_0_2</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>digital_pfb_clock_sync_xxx_0_0</source_block_id>
-    <sink_block_id>blocks_threshold_ff_0</sink_block_id>
+    <sink_block_id>digital_binary_slicer_fb_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
